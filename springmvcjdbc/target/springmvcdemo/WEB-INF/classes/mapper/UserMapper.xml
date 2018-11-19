@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.springmvcdemo.mapper.UserMapper">
+
+    <resultMap id="userMap" type="com.springmvcdemo.model.User">
+        <result property="id" column="id" jdbcType="INTEGER" />
+        <result property="userName" column="user_name" jdbcType="VARCHAR" />
+        <result property="age" column="user_age" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <select id="findId" resultMap="userMap">
+       SELECT id id,name name,age age FROM t_user WHERE id = #{id}
+    </select>
+
+    <delete id="deleteById" parameterType="java.lang.Integer">
+        DELETE FROM t_user WHERE id = #{userId}
+    </delete>
+
+    <insert id="insert" parameterType="User">
+        INSERT INTO t_user(id,name,age) VALUES(#{id},#{name},#{age});
+    </insert>
+
+
+    <update id="update" parameterType="User">
+        UPDATE t_user
+        <set>
+            <if test="name != null">
+                name = #{name},
+            </if>
+            <if test="age != null">
+                age = #{age}
+            </if>
+        </set>
+        WHERE id = #{id}
+    </update>
+    <update id="updateById" parameterType="User">
+        UPDATE t_user
+        <set>
+            <if test="name != null">
+                name = #{name},
+            </if>
+            <if test="age != null">
+                age = #{age}
+            </if>
+        </set>
+        WHERE id = #{userId}
+    </update>
+
+    <select id="getAll" resultMap="userMap">
+         SELECT id,name,age FROM t_user
+    </select>
+
+</mapper>

@@ -1,0 +1,344 @@
+[INFO] [2018-08-24 17:53:24][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-24 17:53:25][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-24 17:53:25][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 17:53:25 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 17:53:25][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-24 17:53:26][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-24 17:53:26][com.springmvcdemo.mapper.UserMapper.findById]==>  Preparing: SELECT id id,name userName,age age FROM t_user WHERE id = ? 
+[DEBUG] [2018-08-24 17:53:26][com.springmvcdemo.mapper.UserMapper.findById]==> Parameters: 1(Integer)
+[TRACE] [2018-08-24 17:53:26][com.springmvcdemo.mapper.UserMapper.findById]<==    Columns: id, userName, age
+[TRACE] [2018-08-24 17:53:26][com.springmvcdemo.mapper.UserMapper.findById]<==        Row: 1, zhuge, 18
+[DEBUG] [2018-08-24 17:53:26][com.springmvcdemo.mapper.UserMapper.findById]<==      Total: 1
+[INFO] [2018-08-24 17:53:26][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 17:53:25 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 17:53:26][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-24 17:53:56][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-24 17:53:57][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-24 17:53:57][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 17:53:57 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 17:53:57][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-24 17:53:58][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-24 17:53:58][com.springmvcdemo.mapper.UserMapper.insert]==>  Preparing: INSERT INTO t_user(id,name,age) VALUES(?,?,?); 
+[DEBUG] [2018-08-24 17:53:58][com.springmvcdemo.mapper.UserMapper.insert]==> Parameters: 3(Integer), Toby(String), 28(String)
+[DEBUG] [2018-08-24 17:53:58][com.springmvcdemo.mapper.UserMapper.insert]<==    Updates: 1
+[INFO] [2018-08-24 17:53:58][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 17:53:57 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 17:53:58][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-24 17:54:57][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-24 17:54:57][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-24 17:54:57][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 17:54:57 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 17:54:57][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-24 17:54:58][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-24 17:54:58][com.springmvcdemo.mapper.UserMapper.insert]==>  Preparing: INSERT INTO t_user(id,name,age) VALUES(?,?,?); 
+[DEBUG] [2018-08-24 17:54:58][com.springmvcdemo.mapper.UserMapper.insert]==> Parameters: 3(Integer), Toby(String), 28(String)
+[INFO] [2018-08-24 17:54:58][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO] [2018-08-24 17:54:58][org.springframework.jdbc.support.SQLErrorCodesFactory]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[INFO] [2018-08-24 17:54:58][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 17:54:57 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 17:54:58][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-24 17:55:26][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-24 17:55:26][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-24 17:55:26][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 17:55:26 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 17:55:26][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-24 17:55:27][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-24 17:55:27][com.springmvcdemo.mapper.UserMapper.findById]==>  Preparing: SELECT id id,name userName,age age FROM t_user WHERE id = ? 
+[DEBUG] [2018-08-24 17:55:27][com.springmvcdemo.mapper.UserMapper.findById]==> Parameters: 1(Integer)
+[TRACE] [2018-08-24 17:55:27][com.springmvcdemo.mapper.UserMapper.findById]<==    Columns: id, userName, age
+[TRACE] [2018-08-24 17:55:27][com.springmvcdemo.mapper.UserMapper.findById]<==        Row: 1, zhuge, 18
+[DEBUG] [2018-08-24 17:55:27][com.springmvcdemo.mapper.UserMapper.findById]<==      Total: 1
+[INFO] [2018-08-24 17:55:27][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 17:55:26 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 17:55:27][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-24 17:58:49][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-24 17:58:49][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-24 17:58:49][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 17:58:49 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 17:58:49][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-24 17:58:50][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-24 17:58:50][com.springmvcdemo.mapper.UserMapper.insert]==>  Preparing: INSERT INTO t_user(id,name,age) VALUES(?,?,?); 
+[DEBUG] [2018-08-24 17:58:50][com.springmvcdemo.mapper.UserMapper.insert]==> Parameters: 0(Integer), Toby(String), 28(String)
+[DEBUG] [2018-08-24 17:58:50][com.springmvcdemo.mapper.UserMapper.insert]<==    Updates: 1
+[INFO] [2018-08-24 17:58:50][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 17:58:49 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 17:58:50][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-24 17:59:26][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-24 17:59:27][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-24 17:59:27][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 17:59:27 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 17:59:27][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-24 17:59:28][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-24 17:59:28][com.springmvcdemo.mapper.UserMapper.findById]==>  Preparing: SELECT id id,name userName,age age FROM t_user WHERE id = ? 
+[DEBUG] [2018-08-24 17:59:28][com.springmvcdemo.mapper.UserMapper.findById]==> Parameters: 3(Integer)
+[TRACE] [2018-08-24 17:59:28][com.springmvcdemo.mapper.UserMapper.findById]<==    Columns: id, userName, age
+[TRACE] [2018-08-24 17:59:28][com.springmvcdemo.mapper.UserMapper.findById]<==        Row: 3, Toby, 28
+[DEBUG] [2018-08-24 17:59:28][com.springmvcdemo.mapper.UserMapper.findById]<==      Total: 1
+[DEBUG] [2018-08-24 17:59:28][com.springmvcdemo.mapper.UserMapper.update]==>  Preparing: UPDATE t_user SET user_name = ?, user_age = ? WHERE user_id = ? 
+[DEBUG] [2018-08-24 17:59:28][com.springmvcdemo.mapper.UserMapper.update]==> Parameters: Toby(String), 27(String), 3(Integer)
+[INFO] [2018-08-24 17:59:28][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO] [2018-08-24 17:59:28][org.springframework.jdbc.support.SQLErrorCodesFactory]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[INFO] [2018-08-24 17:59:28][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 17:59:27 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 17:59:28][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-24 18:00:09][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-24 18:00:09][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-24 18:00:09][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 18:00:09 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 18:00:10][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-24 18:00:10][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-24 18:00:11][com.springmvcdemo.mapper.UserMapper.deleteById]==>  Preparing: DELETE FROM t_user WHERE user_id = ? 
+[DEBUG] [2018-08-24 18:00:11][com.springmvcdemo.mapper.UserMapper.deleteById]==> Parameters: 3(Integer)
+[INFO] [2018-08-24 18:00:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO] [2018-08-24 18:00:11][org.springframework.jdbc.support.SQLErrorCodesFactory]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[INFO] [2018-08-24 18:00:11][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 18:00:09 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 18:00:11][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-24 18:01:38][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-24 18:01:38][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-24 18:01:38][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 18:01:38 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 18:01:38][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-24 18:01:39][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-24 18:01:39][com.springmvcdemo.mapper.UserMapper.findById]==>  Preparing: SELECT id id,name userName,age age FROM t_user WHERE id = ? 
+[DEBUG] [2018-08-24 18:01:39][com.springmvcdemo.mapper.UserMapper.findById]==> Parameters: 3(Integer)
+[TRACE] [2018-08-24 18:01:39][com.springmvcdemo.mapper.UserMapper.findById]<==    Columns: id, userName, age
+[TRACE] [2018-08-24 18:01:39][com.springmvcdemo.mapper.UserMapper.findById]<==        Row: 3, Toby, 28
+[DEBUG] [2018-08-24 18:01:39][com.springmvcdemo.mapper.UserMapper.findById]<==      Total: 1
+[DEBUG] [2018-08-24 18:01:39][com.springmvcdemo.mapper.UserMapper.update]==>  Preparing: UPDATE t_user SET user_name = ?, user_age = ? WHERE user_id = ? 
+[DEBUG] [2018-08-24 18:01:39][com.springmvcdemo.mapper.UserMapper.update]==> Parameters: Toby(String), 28(String), 3(Integer)
+[INFO] [2018-08-24 18:01:39][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO] [2018-08-24 18:01:39][org.springframework.jdbc.support.SQLErrorCodesFactory]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[INFO] [2018-08-24 18:01:39][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 18:01:38 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 18:01:39][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-24 18:05:24][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-24 18:05:24][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-24 18:05:24][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 18:05:24 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 18:05:25][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-24 18:05:25][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-24 18:05:26][com.springmvcdemo.mapper.UserMapper.findById]==>  Preparing: SELECT id id,name userName,age age FROM t_user WHERE id = ? 
+[DEBUG] [2018-08-24 18:05:26][com.springmvcdemo.mapper.UserMapper.findById]==> Parameters: 3(Integer)
+[TRACE] [2018-08-24 18:05:26][com.springmvcdemo.mapper.UserMapper.findById]<==    Columns: id, userName, age
+[TRACE] [2018-08-24 18:05:26][com.springmvcdemo.mapper.UserMapper.findById]<==        Row: 3, Toby, 28
+[DEBUG] [2018-08-24 18:05:26][com.springmvcdemo.mapper.UserMapper.findById]<==      Total: 1
+[DEBUG] [2018-08-24 18:05:26][com.springmvcdemo.mapper.UserMapper.update]==>  Preparing: UPDATE t_user SET name = ?, age = ? WHERE id = ? 
+[DEBUG] [2018-08-24 18:05:26][com.springmvcdemo.mapper.UserMapper.update]==> Parameters: Toby(String), 27(String), 3(Integer)
+[DEBUG] [2018-08-24 18:05:26][com.springmvcdemo.mapper.UserMapper.update]<==    Updates: 1
+[INFO] [2018-08-24 18:05:26][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 18:05:24 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 18:05:26][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-24 18:07:32][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-24 18:07:32][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-24 18:07:32][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@ec756bd: startup date [Fri Aug 24 18:07:32 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 18:07:32][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-24 18:07:33][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-24 18:07:33][com.springmvcdemo.mapper.UserMapper.getAll]==>  Preparing: SELECT id,name,age FROM t_user 
+[DEBUG] [2018-08-24 18:07:33][com.springmvcdemo.mapper.UserMapper.getAll]==> Parameters: 
+[TRACE] [2018-08-24 18:07:33][com.springmvcdemo.mapper.UserMapper.getAll]<==    Columns: id, name, age
+[TRACE] [2018-08-24 18:07:33][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 1, zhuge, 18
+[TRACE] [2018-08-24 18:07:33][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 3, Toby, 27
+[TRACE] [2018-08-24 18:07:33][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 4, Toby, 28
+[DEBUG] [2018-08-24 18:07:33][com.springmvcdemo.mapper.UserMapper.getAll]<==      Total: 3
+[INFO] [2018-08-24 18:07:33][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@ec756bd: startup date [Fri Aug 24 18:07:32 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 18:07:33][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-24 18:07:42][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-24 18:07:43][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-24 18:07:43][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 18:07:43 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 18:07:43][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-24 18:07:44][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-24 18:07:44][com.springmvcdemo.mapper.UserMapper.getAll]==>  Preparing: SELECT id,name,age FROM t_user 
+[DEBUG] [2018-08-24 18:07:44][com.springmvcdemo.mapper.UserMapper.getAll]==> Parameters: 
+[TRACE] [2018-08-24 18:07:44][com.springmvcdemo.mapper.UserMapper.getAll]<==    Columns: id, name, age
+[TRACE] [2018-08-24 18:07:44][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 1, zhuge, 18
+[TRACE] [2018-08-24 18:07:44][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 3, Toby, 27
+[TRACE] [2018-08-24 18:07:44][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 4, Toby, 28
+[DEBUG] [2018-08-24 18:07:44][com.springmvcdemo.mapper.UserMapper.getAll]<==      Total: 3
+[INFO] [2018-08-24 18:07:44][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 18:07:43 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 18:07:44][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-24 18:10:30][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-24 18:10:30][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-24 18:10:30][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 18:10:30 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 18:10:30][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-24 18:10:31][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-24 18:10:31][com.springmvcdemo.mapper.UserMapper.deleteById]==>  Preparing: DELETE FROM t_user WHERE user_id = ? 
+[DEBUG] [2018-08-24 18:10:31][com.springmvcdemo.mapper.UserMapper.deleteById]==> Parameters: 3(Integer)
+[INFO] [2018-08-24 18:10:31][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO] [2018-08-24 18:10:31][org.springframework.jdbc.support.SQLErrorCodesFactory]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[INFO] [2018-08-24 18:10:31][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 18:10:30 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 18:10:31][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-24 18:11:17][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-24 18:11:17][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-24 18:11:17][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 18:11:17 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 18:11:17][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-24 18:11:18][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-24 18:11:18][com.springmvcdemo.mapper.UserMapper.deleteById]==>  Preparing: DELETE FROM t_user WHERE id = ? 
+[DEBUG] [2018-08-24 18:11:18][com.springmvcdemo.mapper.UserMapper.deleteById]==> Parameters: 3(Integer)
+[DEBUG] [2018-08-24 18:11:18][com.springmvcdemo.mapper.UserMapper.deleteById]<==    Updates: 1
+[INFO] [2018-08-24 18:11:18][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Fri Aug 24 18:11:17 CST 2018]; root of context hierarchy
+[INFO] [2018-08-24 18:11:18][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-27 10:21:13][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-27 10:21:14][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-27 10:21:14][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Mon Aug 27 10:21:14 CST 2018]; root of context hierarchy
+[INFO] [2018-08-27 10:21:14][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-27 10:21:15][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-27 10:21:15][com.springmvcdemo.mapper.UserMapper.findById]==>  Preparing: SELECT id id,name userName,age age FROM t_user WHERE id = ? 
+[DEBUG] [2018-08-27 10:21:15][com.springmvcdemo.mapper.UserMapper.findById]==> Parameters: 1(Integer)
+[TRACE] [2018-08-27 10:21:15][com.springmvcdemo.mapper.UserMapper.findById]<==    Columns: id, userName, age
+[TRACE] [2018-08-27 10:21:15][com.springmvcdemo.mapper.UserMapper.findById]<==        Row: 1, zhuge, 18
+[DEBUG] [2018-08-27 10:21:15][com.springmvcdemo.mapper.UserMapper.findById]<==      Total: 1
+[INFO] [2018-08-27 10:21:15][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Mon Aug 27 10:21:14 CST 2018]; root of context hierarchy
+[INFO] [2018-08-27 10:21:15][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-27 10:55:02][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-27 10:55:02][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-27 10:55:02][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Mon Aug 27 10:55:02 CST 2018]; root of context hierarchy
+[INFO] [2018-08-27 10:55:02][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-27 10:55:02][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'druid-stat-interceptor' of type [class com.alibaba.druid.support.spring.stat.DruidStatInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] [2018-08-27 10:55:03][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-27 10:55:04][com.springmvcdemo.mapper.UserMapper.insert]==>  Preparing: INSERT INTO t_user(id,name,age) VALUES(?,?,?); 
+[DEBUG] [2018-08-27 10:55:04][com.springmvcdemo.mapper.UserMapper.insert]==> Parameters: 0(Integer), Toby(String), 28(String)
+[DEBUG] [2018-08-27 10:55:04][com.springmvcdemo.mapper.UserMapper.insert]<==    Updates: 1
+[INFO] [2018-08-27 10:55:04][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Mon Aug 27 10:55:02 CST 2018]; root of context hierarchy
+[INFO] [2018-08-27 10:55:04][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-27 10:55:26][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-27 10:55:26][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-27 10:55:26][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Mon Aug 27 10:55:26 CST 2018]; root of context hierarchy
+[INFO] [2018-08-27 10:55:26][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-27 10:55:26][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'druid-stat-interceptor' of type [class com.alibaba.druid.support.spring.stat.DruidStatInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] [2018-08-27 10:55:27][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-27 10:55:27][com.springmvcdemo.mapper.UserMapper.insert]==>  Preparing: INSERT INTO t_user(id,name,age) VALUES(?,?,?); 
+[DEBUG] [2018-08-27 10:55:27][com.springmvcdemo.mapper.UserMapper.insert]==> Parameters: 0(Integer), Toby(String), 28(String)
+[DEBUG] [2018-08-27 10:55:27][com.springmvcdemo.mapper.UserMapper.insert]<==    Updates: 1
+[INFO] [2018-08-27 10:55:27][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Mon Aug 27 10:55:26 CST 2018]; root of context hierarchy
+[INFO] [2018-08-27 10:55:27][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-27 10:55:37][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-27 10:55:37][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-27 10:55:37][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Mon Aug 27 10:55:37 CST 2018]; root of context hierarchy
+[INFO] [2018-08-27 10:55:37][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-27 10:55:37][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'druid-stat-interceptor' of type [class com.alibaba.druid.support.spring.stat.DruidStatInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] [2018-08-27 10:55:38][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-27 10:55:38][com.springmvcdemo.mapper.UserMapper.findById]==>  Preparing: SELECT id id,name userName,age age FROM t_user WHERE id = ? 
+[DEBUG] [2018-08-27 10:55:38][com.springmvcdemo.mapper.UserMapper.findById]==> Parameters: 5(Integer)
+[TRACE] [2018-08-27 10:55:38][com.springmvcdemo.mapper.UserMapper.findById]<==    Columns: id, userName, age
+[TRACE] [2018-08-27 10:55:38][com.springmvcdemo.mapper.UserMapper.findById]<==        Row: 5, Toby, 28
+[DEBUG] [2018-08-27 10:55:38][com.springmvcdemo.mapper.UserMapper.findById]<==      Total: 1
+[INFO] [2018-08-27 10:55:38][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Mon Aug 27 10:55:37 CST 2018]; root of context hierarchy
+[INFO] [2018-08-27 10:55:38][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-27 10:56:13][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-27 10:56:14][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-27 10:56:14][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Mon Aug 27 10:56:14 CST 2018]; root of context hierarchy
+[INFO] [2018-08-27 10:56:14][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-27 10:56:14][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'druid-stat-interceptor' of type [class com.alibaba.druid.support.spring.stat.DruidStatInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] [2018-08-27 10:56:15][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-27 10:56:15][com.springmvcdemo.mapper.UserMapper.deleteById]==>  Preparing: DELETE FROM t_user WHERE id = ? 
+[DEBUG] [2018-08-27 10:56:15][com.springmvcdemo.mapper.UserMapper.deleteById]==> Parameters: 10(Integer)
+[DEBUG] [2018-08-27 10:56:15][com.springmvcdemo.mapper.UserMapper.deleteById]<==    Updates: 0
+[INFO] [2018-08-27 10:56:15][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Mon Aug 27 10:56:14 CST 2018]; root of context hierarchy
+[INFO] [2018-08-27 10:56:15][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-29 16:08:45][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-29 16:08:45][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-29 16:08:45][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Wed Aug 29 16:08:45 CST 2018]; root of context hierarchy
+[INFO] [2018-08-29 16:08:45][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-29 16:08:45][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'druid-stat-interceptor' of type [class com.alibaba.druid.support.spring.stat.DruidStatInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] [2018-08-29 16:08:46][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-29 16:08:46][com.springmvcdemo.mapper.UserMapper.insert]==>  Preparing: INSERT INTO t_user(id,name,age) VALUES(?,?,?); 
+[DEBUG] [2018-08-29 16:08:46][com.springmvcdemo.mapper.UserMapper.insert]==> Parameters: 0(Integer), huangtao(String), 99(String)
+[DEBUG] [2018-08-29 16:08:46][com.springmvcdemo.mapper.UserMapper.insert]<==    Updates: 1
+[INFO] [2018-08-29 16:08:46][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Wed Aug 29 16:08:45 CST 2018]; root of context hierarchy
+[INFO] [2018-08-29 16:08:46][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-29 16:09:35][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-29 16:09:35][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-29 16:09:35][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Wed Aug 29 16:09:35 CST 2018]; root of context hierarchy
+[INFO] [2018-08-29 16:09:36][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-29 16:09:36][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'druid-stat-interceptor' of type [class com.alibaba.druid.support.spring.stat.DruidStatInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] [2018-08-29 16:09:36][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-29 16:09:37][com.springmvcdemo.mapper.UserMapper.insert]==>  Preparing: INSERT INTO t_user(id,name,age) VALUES(?,?,?); 
+[DEBUG] [2018-08-29 16:09:37][com.springmvcdemo.mapper.UserMapper.insert]==> Parameters: 0(Integer), lixuzheng(String), 109(String)
+[DEBUG] [2018-08-29 16:09:37][com.springmvcdemo.mapper.UserMapper.insert]<==    Updates: 1
+[INFO] [2018-08-29 16:09:37][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Wed Aug 29 16:09:35 CST 2018]; root of context hierarchy
+[INFO] [2018-08-29 16:09:37][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-30 16:33:19][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-30 16:33:19][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-30 16:33:19][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Thu Aug 30 16:33:19 CST 2018]; root of context hierarchy
+[INFO] [2018-08-30 16:33:19][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-30 16:33:19][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'druid-stat-interceptor' of type [class com.alibaba.druid.support.spring.stat.DruidStatInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] [2018-08-30 16:33:20][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-30 16:33:20][com.springmvcdemo.mapper.UserMapper.insert]==>  Preparing: INSERT INTO t_user(id,name,age) VALUES(?,?,?); 
+[DEBUG] [2018-08-30 16:33:20][com.springmvcdemo.mapper.UserMapper.insert]==> Parameters: 0(Integer), liyi(String), 11(String)
+[DEBUG] [2018-08-30 16:33:20][com.springmvcdemo.mapper.UserMapper.insert]<==    Updates: 1
+[INFO] [2018-08-30 16:33:20][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Thu Aug 30 16:33:19 CST 2018]; root of context hierarchy
+[INFO] [2018-08-30 16:33:20][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-30 16:33:38][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-30 16:33:38][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-30 16:33:39][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Thu Aug 30 16:33:39 CST 2018]; root of context hierarchy
+[INFO] [2018-08-30 16:33:39][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-30 16:33:39][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'druid-stat-interceptor' of type [class com.alibaba.druid.support.spring.stat.DruidStatInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] [2018-08-30 16:33:40][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-30 16:33:40][com.springmvcdemo.mapper.UserMapper.insert]==>  Preparing: INSERT INTO t_user(id,name,age) VALUES(?,?,?); 
+[DEBUG] [2018-08-30 16:33:40][com.springmvcdemo.mapper.UserMapper.insert]==> Parameters: 0(Integer), lier(String), 12(String)
+[DEBUG] [2018-08-30 16:33:40][com.springmvcdemo.mapper.UserMapper.insert]<==    Updates: 1
+[INFO] [2018-08-30 16:33:40][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Thu Aug 30 16:33:39 CST 2018]; root of context hierarchy
+[INFO] [2018-08-30 16:33:40][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-30 16:33:49][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-30 16:33:49][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-30 16:33:49][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Thu Aug 30 16:33:49 CST 2018]; root of context hierarchy
+[INFO] [2018-08-30 16:33:49][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-30 16:33:49][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'druid-stat-interceptor' of type [class com.alibaba.druid.support.spring.stat.DruidStatInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] [2018-08-30 16:33:50][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-30 16:33:50][com.springmvcdemo.mapper.UserMapper.getAll]==>  Preparing: SELECT id,name,age FROM t_user 
+[DEBUG] [2018-08-30 16:33:50][com.springmvcdemo.mapper.UserMapper.getAll]==> Parameters: 
+[TRACE] [2018-08-30 16:33:50][com.springmvcdemo.mapper.UserMapper.getAll]<==    Columns: id, name, age
+[TRACE] [2018-08-30 16:33:50][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 1, zhuge, 18
+[TRACE] [2018-08-30 16:33:50][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 4, Toby, 28
+[TRACE] [2018-08-30 16:33:50][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 5, Toby, 28
+[TRACE] [2018-08-30 16:33:50][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 6, Toby, 28
+[TRACE] [2018-08-30 16:33:50][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 7, huangtao, 99
+[TRACE] [2018-08-30 16:33:50][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 8, lixuzheng, 109
+[TRACE] [2018-08-30 16:33:50][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 9, liyi, 11
+[TRACE] [2018-08-30 16:33:50][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 10, lier, 12
+[DEBUG] [2018-08-30 16:33:50][com.springmvcdemo.mapper.UserMapper.getAll]<==      Total: 8
+[INFO] [2018-08-30 16:33:50][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Thu Aug 30 16:33:49 CST 2018]; root of context hierarchy
+[INFO] [2018-08-30 16:33:50][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-30 16:34:35][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-30 16:34:35][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-30 16:34:35][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Thu Aug 30 16:34:35 CST 2018]; root of context hierarchy
+[INFO] [2018-08-30 16:34:35][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-30 16:34:35][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'druid-stat-interceptor' of type [class com.alibaba.druid.support.spring.stat.DruidStatInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] [2018-08-30 16:34:36][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-30 16:34:36][com.springmvcdemo.mapper.UserMapper.getAll]==>  Preparing: SELECT id,name,age FROM t_user 
+[DEBUG] [2018-08-30 16:34:36][com.springmvcdemo.mapper.UserMapper.getAll]==> Parameters: 
+[TRACE] [2018-08-30 16:34:36][com.springmvcdemo.mapper.UserMapper.getAll]<==    Columns: id, name, age
+[TRACE] [2018-08-30 16:34:36][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 1, zhuge, 18
+[TRACE] [2018-08-30 16:34:36][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 4, Toby, 28
+[TRACE] [2018-08-30 16:34:36][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 5, Toby, 28
+[TRACE] [2018-08-30 16:34:36][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 6, Toby, 28
+[TRACE] [2018-08-30 16:34:36][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 7, huangtao, 99
+[TRACE] [2018-08-30 16:34:36][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 8, lixuzheng, 109
+[TRACE] [2018-08-30 16:34:36][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 9, liyi, 11
+[TRACE] [2018-08-30 16:34:36][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 10, lier, 12
+[DEBUG] [2018-08-30 16:34:36][com.springmvcdemo.mapper.UserMapper.getAll]<==      Total: 8
+[INFO] [2018-08-30 16:34:36][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Thu Aug 30 16:34:35 CST 2018]; root of context hierarchy
+[INFO] [2018-08-30 16:34:36][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-30 16:34:52][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-30 16:34:52][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-30 16:34:52][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Thu Aug 30 16:34:52 CST 2018]; root of context hierarchy
+[INFO] [2018-08-30 16:34:52][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-30 16:34:52][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'druid-stat-interceptor' of type [class com.alibaba.druid.support.spring.stat.DruidStatInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] [2018-08-30 16:34:53][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-30 16:34:53][com.springmvcdemo.mapper.UserMapper.getAll]==>  Preparing: SELECT id,name,age FROM t_user 
+[DEBUG] [2018-08-30 16:34:53][com.springmvcdemo.mapper.UserMapper.getAll]==> Parameters: 
+[TRACE] [2018-08-30 16:34:53][com.springmvcdemo.mapper.UserMapper.getAll]<==    Columns: id, name, age
+[TRACE] [2018-08-30 16:34:53][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 1, zhuge, 18
+[TRACE] [2018-08-30 16:34:53][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 4, Toby, 28
+[TRACE] [2018-08-30 16:34:53][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 5, Toby, 28
+[TRACE] [2018-08-30 16:34:53][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 6, Toby, 28
+[TRACE] [2018-08-30 16:34:53][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 7, huangtao, 99
+[TRACE] [2018-08-30 16:34:53][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 8, lixuzheng, 109
+[TRACE] [2018-08-30 16:34:53][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 9, liyi, 11
+[TRACE] [2018-08-30 16:34:53][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 10, lier, 12
+[DEBUG] [2018-08-30 16:34:53][com.springmvcdemo.mapper.UserMapper.getAll]<==      Total: 8
+[INFO] [2018-08-30 16:34:53][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Thu Aug 30 16:34:52 CST 2018]; root of context hierarchy
+[INFO] [2018-08-30 16:34:53][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-08-30 17:19:33][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring.xml]
+[INFO] [2018-08-30 17:19:33][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring-mybatis.xml]
+[INFO] [2018-08-30 17:19:33][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Thu Aug 30 17:19:33 CST 2018]; root of context hierarchy
+[INFO] [2018-08-30 17:19:33][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2018-08-30 17:19:33][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'druid-stat-interceptor' of type [class com.alibaba.druid.support.spring.stat.DruidStatInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] [2018-08-30 17:19:34][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[DEBUG] [2018-08-30 17:19:34][com.springmvcdemo.mapper.UserMapper.getAll]==>  Preparing: SELECT id,name,age FROM t_user 
+[DEBUG] [2018-08-30 17:19:34][com.springmvcdemo.mapper.UserMapper.getAll]==> Parameters: 
+[TRACE] [2018-08-30 17:19:34][com.springmvcdemo.mapper.UserMapper.getAll]<==    Columns: id, name, age
+[TRACE] [2018-08-30 17:19:34][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 1, zhuge, 18
+[TRACE] [2018-08-30 17:19:34][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 4, Toby, 28
+[TRACE] [2018-08-30 17:19:34][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 5, Toby, 28
+[TRACE] [2018-08-30 17:19:34][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 6, Toby, 28
+[TRACE] [2018-08-30 17:19:34][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 7, huangtao, 99
+[TRACE] [2018-08-30 17:19:34][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 8, lixuzheng, 109
+[TRACE] [2018-08-30 17:19:34][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 9, liyi, 11
+[TRACE] [2018-08-30 17:19:34][com.springmvcdemo.mapper.UserMapper.getAll]<==        Row: 10, lier, 12
+[DEBUG] [2018-08-30 17:19:34][com.springmvcdemo.mapper.UserMapper.getAll]<==      Total: 8
+[INFO] [2018-08-30 17:19:34][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@d2cc05a: startup date [Thu Aug 30 17:19:33 CST 2018]; root of context hierarchy
+[INFO] [2018-08-30 17:19:34][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed

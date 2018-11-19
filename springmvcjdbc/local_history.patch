@@ -1,0 +1,37 @@
+Index: src/main/java/com/springmvcdemo/controller/HomeController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/com/springmvcdemo/controller/HomeController.java	(date 1541756289000)
++++ src/main/java/com/springmvcdemo/controller/HomeController.java	(date 1541756289000)
+@@ -1,7 +1,6 @@
+ package com.springmvcdemo.controller;
+ import com.github.pagehelper.PageHelper;
+ import com.github.pagehelper.PageInfo;
+-import com.springmvcdemo.model.Msg;
+ import com.springmvcdemo.service.UserService;
+ import com.springmvcdemo.model.User;
+ import org.springframework.beans.factory.annotation.Autowired;
+@@ -43,7 +42,7 @@
+     //查询员工分页
+     @RequestMapping(value = "/admin/users", method = RequestMethod.GET)
+     @ResponseBody
+-    public Msg getUsers(@RequestParam(value="pn",defaultValue = "1")Integer pn, Model model){
++    public String getUsers(@RequestParam(value="pn",defaultValue = "1")Integer pn, Model model){
+         //查处所有员工但不是分页
+         //引入分页插件
+         //在查询之前只需要调用如下方法，从第n页查，每次查5条数据
+@@ -53,9 +52,10 @@
+         //将查询到的所有数据利用pageInfo进行包装，
+         //可以显示一些信息（比如在第几页啥的）；此处的5表示连续显示的页数
+         PageInfo page =new PageInfo(user,5);
+-        //model.addAttribute("pageInfo",page);
++        model.addAttribute("pageInfo",page);
++        return"admin/list.jsp";
+ 
+-        return Msg.success().add("pageInfo",page);
++        //return Msg.success().add("pageInfo",page);
+     }
+     /*
+     public String getUsers(ModelMap modelMap) {

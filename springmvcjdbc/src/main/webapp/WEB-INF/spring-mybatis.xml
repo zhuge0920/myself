@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.alibaba.com/schema/stat"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+              http://www.springframework.org/schema/beans/spring-beans.xsd
+              http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+              http://www.alibaba.com/schema/stat http://www.alibaba.com/schema/stat.xsd">
+
+    <!--tx:annotation-driven 元素告诉Spring检查上下文中所有Bean并查找使用@Transactional注解的Bean，而不管这个注解时用在类级别上还是方法级别上。-->
+     <!--使用声明式事务的方式-->
+    <tx:annotation-driven/>
+
+
+
+    <!---->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="mapperLocations" value="classpath*:mapper/*.xml"/>
+        <!--设置别名-->
+        <property name="typeAliasesPackage" value="com.springmvcdemo.model" />
+        <!--配置分页插件-->
+        <property name="plugins">
+            <array>
+                <bean class="com.github.pagehelper.PageInterceptor">
+                    <property name="properties">
+                        <!-- config params as the following -->
+                        <value>
+                            param1=value1
+                        </value>
+                    </property>
+                </bean>
+            </array>
+        </property>
+    </bean>
+
+    <!--开启Spring事务-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!--数据库连接池-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <!-- 配置初始化大小、最小、最大 -->
+        <property name="initialSize">
+            <value>1</value>
+        </property>
+        <property name="maxActive">
+            <value>20</value>
+        </property>
+        <property name="minIdle">
+            <value>1</value>
+        </property>
+        <!-- 配置获取连接等待超时的时间 -->
+        <property name="maxWait">
+            <value>60000</value>
+        </property>
+        <!-- 配置监控统计拦截的filters -->
+        <property name="filters">
+            <value>stat</value>
+        </property>
+        <!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+        <property name="timeBetweenEvictionRunsMillis">
+            <value>60000</value>
+        </property>
+        <!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+        <property name="minEvictableIdleTimeMillis">
+            <value>300000</value>
+        </property>
+    </bean>
+</beans>
+
